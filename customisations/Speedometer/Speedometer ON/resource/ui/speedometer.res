@@ -1,0 +1,75 @@
+"Resource/UI/Speedometer.res"
+{
+	"speed1"
+	{
+		"controlName" "CTFImagePanel"
+		"fieldName" "speed1"
+		"visible" "1"
+		"enabled" "1"
+		"visible_minmode" "1"
+		"enabled_minmode" "1"
+		"xpos" "c12"
+		"ypos" "c150"
+		"zpos" "0"
+		"wide" "12"
+		"tall" "12"
+
+		"alpha" "255"
+		"image" "replay/thumbnails/funnyd1"
+		"scaleimage" "1"
+	}
+	"speed2"
+	{
+		"controlName" "CTFImagePanel"
+		"fieldName" "speed1"
+		"visible" "1"
+		"enabled" "1"
+		"visible_minmode" "1"
+		"enabled_minmode" "1"
+		"xpos" "c0"
+		"ypos" "c150"
+		"zpos" "0"
+		"wide" "12"
+		"tall" "12"
+
+		"alpha" "255"
+		"image" "replay/thumbnails/funnyd2"
+		"scaleimage" "1"
+	}
+	"speed3"
+	{
+		"controlName" "CTFImagePanel"
+		"fieldName" "speed1"
+		"visible" "1"
+		"enabled" "1"
+		"visible_minmode" "1"
+		"enabled_minmode" "1"
+		"xpos" "c-12"
+		"ypos" "c150"
+		"zpos" "0"
+		"wide" "12"
+		"tall" "12"
+
+		"alpha" "255"
+		"image" "replay/thumbnails/funnyd3"
+		"scaleimage" "1"
+	}
+	"speed4"
+	{
+		"controlName" "CTFImagePanel"
+		"fieldName" "speed1"
+		"visible" "1"
+		"enabled" "1"
+		"visible_minmode" "1"
+		"enabled_minmode" "1"
+		"xpos" "c-24"
+		"ypos" "c150"
+		"zpos" "0"
+		"wide" "12"
+		"tall" "12"
+
+		"alpha" "255"
+		"image" "replay/thumbnails/funnyd4"
+		"scaleimage" "1"
+	}
+}

@@ -1,0 +1,92 @@
+event HudHealthBonusPulse
+{
+	Animate	PlayerStatusHealthBonusImage 		Alpha		"0"									Linear 	0.0 0.2
+	Animate	PlayerStatusHealthBonusImage 		Alpha		"0"									Linear 	0.2 0.4
+	
+	Animate PlayerStatusHealthvalueSpec			Alpha 		"255"								Linear 	0.0 0.01
+	Animate PlayerStatusHealthvalueSpec			FgColor 	"0 255 100 255" 					Accel 	0.0 0.0
+	
+	Animate PlayerStatusHealthValue 			Alpha 		"255" 								Linear 	0.0 0.01
+	Animate PlayerStatusHealthValue 			FgColor 	"Health Numbers" 					Spline 	0.0 0.075
+	
+	Animate PlayerStatusHealthValueSpecTarget 	Alpha 		"255" 								Linear 	0.0 0.01
+	Animate PlayerStatusHealthValueSpecTarget 	FgColor 	"0 255 100 255" 					Spline 	0.0 0.075
+	Animate PlayerStatusHealthValueSpecTarget   FgColor     "128 255 178 255"                  	Spline  0.2 0.075
+
+	Animate	PlayerStatusHealthBG		BgColor		"0 255 100 255"	Linear 0.0 0.0
+    Animate	PlayerStatusHealthBG		Alpha		"215"		Linear 0.0 0.2
+	Animate	PlayerStatusHealthBG		Alpha		"88"		Linear 0.2 0.4
+	
+	RunEvent HudHealthBonusPulseLoop			0.4
+	
+}
+
+event HudHealthBonusPulseLoop
+{
+	RunEvent HudHealthBonusPulse				0.0
+}
+
+event HudHealthBonusPulseStop
+{
+	StopEvent HudHealthBonusPulse 				0.0
+	StopEvent HudHealthBonusPulseLoop			0.0
+	
+	Animate PlayerStatusHealthvalueSpec 		Alpha 		"255" 								Linear 	0.0 0.0
+	Animate PlayerStatusHealthvalueSpec 		FgColor 	"Health Numbers" 					Accel	0.0 0.0
+	
+	Animate PlayerStatusHealthValue 			Alpha 		"255" 								Linear 	0.0 0.01
+	Animate PlayerStatusHealthValue 			FgColor 	"Health Numbers" 					Linear 	0.0 0.0
+	
+	Animate PlayerStatusHealthValueSpecTarget 	Alpha 		"255" 								Linear 	0.0 0.01
+	Animate PlayerStatusHealthValueSpecTarget 	FgColor 	"Health Numbers" 					Linear 	0.0 0.0
+	
+	Animate	PlayerStatusHealthBG		BgColor		"Blank"		Linear 0.0 0.0
+    Animate	PlayerStatusHealthBG		Alpha		"0"			Linear 0.0 0.2
+	
+}
+
+//====================================================================================================================
+
+event HudHealthDyingPulse
+{
+	Animate	PlayerStatusHealthBonusImage 		Alpha		"0"									Linear 	0.0 0.075
+	Animate	PlayerStatusHealthBonusImage 		Alpha		"0"									Linear 	0.125 0.075
+	
+	Animate PlayerStatusHealthvalueSpec			Alpha 		"255" 								Linear 	0.0 0.0
+	Animate PlayerStatusHealthvalueSpec 		FgColor 	"LowPulse1" 						Linear 	0.0 0.0
+	
+	
+	Animate PlayerStatusHealthValue 			Alpha 		"255" 								Linear 	0.0 0.00
+	Animate PlayerStatusHealthValue 			FgColor 	"Health Numbers" 						Spline 	0.0 0.075
+	
+	Animate PlayerStatusHealthValueSpecTarget	Alpha 		"255" 								Linear 	0.0 0.00
+	Animate PlayerStatusHealthValueSpecTarget  	FgColor 	"LowPulse1" 						Spline 	0.0 0.075
+	Animate PlayerStatusHealthValueSpecTarget 	FgColor     "LowPulse2"                    		Spline 0.2 0.075
+	
+	Animate	PlayerStatusHealthBG		BgColor		"255 20 20 255"		Linear 0.0 0.0
+    Animate	PlayerStatusHealthBG		Alpha		"215"		Linear 0.0 0.075
+	Animate	PlayerStatusHealthBG		Alpha		"88"		Linear 0.125 0.075
+	
+	RunEvent HudHealthDyingPulseLoop			0.4
+}
+
+event HudHealthDyingPulseLoop
+{
+	RunEvent HudHealthDyingPulse				0.0
+}
+
+event HudHealthDyingPulseStop
+{
+	StopEvent HudHealthDyingPulse				0.0
+	StopEvent HudHealthDyingPulseLoop 			0.0
+	
+	Animate PlayerStatusHealthvalueSpec 		Alpha 		"255" 								Linear 	0.0 0.0
+	Animate PlayerStatusHealthvalueSpec 		FgColor 	"Health Numbers" 					Accel 	0.0 0.0
+	
+	Animate StatusPlayerHealthSpecTarget		Alpha 		"255"								Linear 	0.0 0.0
+	Animate StatusPlayerHealthSpecTarget		FgColor 	"Health Numbers" 					Accel 	0.0 0.0
+	
+	Animate	PlayerStatusHealthBG		BgColor		"Blank"		Linear 0.0 0.0
+    Animate	PlayerStatusHealthBG		Alpha		"0"			Linear 0.0 0.0
+	
+}

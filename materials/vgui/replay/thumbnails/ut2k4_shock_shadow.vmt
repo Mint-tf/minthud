@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+	"$translucent"	1
+	"$basetexture" "vgui\replay\thumbnails\ut2k4_shock_shadow"
+	"$vertexcolor" 1
+	"$no_fullbright" 1
+	"$ignorez" 1
+}

@@ -1,0 +1,1 @@
+#base 	"../../customisations/Scoreboard/scoreboard.res"
