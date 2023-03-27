@@ -1,0 +1,6 @@
+drag the files in as per
+
+to start the counter open the voice lines menu (Z by default) then close it
+to restart it open and close the menu again
+
+it counts 1 to 100 in 55 seconds which is average time to build in competitive

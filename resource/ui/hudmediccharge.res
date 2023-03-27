@@ -1,3 +1,5 @@
+#base "hudmedicubercounter.res"
+
 "Resource/UI/HudMedicCharge.res"
 {	
     "MedicBG"	
