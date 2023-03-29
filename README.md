@@ -1,5 +1,34 @@
-# minthud
-just getting all my favs parts of different huds and putting them into one
-![example](https://user-images.githubusercontent.com/128992555/227790887-b654c54b-9ce6-4d69-84db-9a92647ea624.png)
-![example](https://user-images.githubusercontent.com/128992555/227847924-2915b12b-a44e-40a6-a828-810add33359f.png)
-![KDA stats](https://user-images.githubusercontent.com/128992555/227832352-cb2e4c7d-e789-4f20-b686-45d6b93defbd.png)
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/128992555/228401876-c5b25765-8207-4430-ad2c-f18313d32593.png" width=500px>
+</p>
+
+## A simplistic competitive TF2 hud.
+[Screenshot Album](https://imgur.com/a/UhhE9IM)
+
+[Changelogs](https://github.com/Mint-tf/minthud/commits/master)
+
+[Credits](https://github.com/Mint-tf/minthud/blob/master/credits.md)
+
+## Features
+
+- Lots of customisation options
+
+  - 2 Main Menus
+  - 6 Fonts
+  - Multiple health/ammo positions and styles
+  - Optional uber tracker and speedometer
+  - And even more!
+
+- A large focus on being easy to read even in the most intense moments.
+
+- Support for 16:9 and 4:3. (If you run into any issues on either resolution let me know!)
+
+- And a lot more features to come through updates and continued support.
+
+## Contact
+
+If you run into any issues, have any ideas, or just want to reach out in some way - feel free to message me on discord!
+</br>
+</br>
+**Mint#0404**
