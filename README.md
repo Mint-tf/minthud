@@ -30,5 +30,7 @@
 
 If you run into any issues, have any ideas, or just want to reach out in some way - feel free to message me on discord!
 </br>
+Also feel free to put out a pull request if you run into any issues, though Discord is an easier way to reach me.
+</br>
 </br>
 **Mint#0404**
