@@ -6,5 +6,5 @@
 // Make sure only one line is uncommented or it will break
 
 
-#base "../../resource/ui/alternatives/scoreboard_nostats.res"		// ONLY KILLS, ASSISTS AND DEATHS
-// theres no other option lol but just image there is :3
+#base "../../resource/ui/alternatives/scoreboard_nostats.res"		// ONLY KILLS AND DEATHS
+// still workin on it, sorry :3
