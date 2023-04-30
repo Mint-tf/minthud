@@ -14,7 +14,7 @@
 
 - Lots of customisation options
 
-  - 2 Main Menus
+  - 2 Main Menu Styles
   - 6 Fonts
   - Multiple health/ammo positions and styles
   - Optional uber tracker and speedometer
@@ -25,6 +25,9 @@
 - Support for 16:9 and 4:3. (If you run into any issues on either resolution let me know!)
 
 - And a lot more features to come through updates and continued support.
+
+I am creating this HUD with the idea of clarity, less background borders/boxes and removing options that are not important for competitive TF2.
+If the HUD has issues in casual or other modes that would be only be fixed at the expense of competitive 6v6/highlander; I will always prioritise competitive.
 
 ## Contact
 
