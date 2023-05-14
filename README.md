@@ -29,6 +29,13 @@
 I am creating this HUD with the idea of clarity, less background borders/boxes and removing options that are not important for competitive TF2.
 If the HUD has issues in casual or other modes that would be only be fixed at the expense of competitive 6v6/highlander; I will always prioritise competitive.
 
+## Customisation - How to use
+
+In the main 'minthud-master' folder there will be a folder named 'customisations'.
+Inside there you can find what you want to change and drag the contents back into the main hud folder.
+Sometimes the customisation will be a .res file (such as matchstatus customisation) and in there just delete the // at the start of the line.
+Inside the .res file there will be better instructions on how to change it correctly.
+
 ## Contact
 
 If you run into any issues, have any ideas, or just want to reach out in some way - feel free to message me on discord!
